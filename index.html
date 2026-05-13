@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="L'energia, decodificata. Analisi di mercato 2026." />
+    <title>LUCE/GAS | L'energia, decodificata.</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <link href="assets/css/awwwards.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pb"></div>
+    <nav class="nav-awwwards">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="nav-links">
+            <a href="index.html" style="color: var(--accent);">Home</a>
+            <a href="articoli.html">Blog</a>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="contatti.html">Contatti</a>
+        </div>
+    </nav>
+
+    <div class="container-aww header-spacing">
+        <div class="section-aww" data-aos="fade-in" data-aos-duration="1500">
+            <h1 class="huge-text font-heading">L'ENERGIA,<br><span>DECODIFICATA.</span></h1>
+            <p class="sub-text">Non più tariffe incomprensibili. Il mercato 2026 decostruito attraverso dati crudi, trend algoritmici e strategie di abbattimento dei costi.</p>
+            <a href="articoli.html" class="btn-awwwards">Leggi il Blog</a>
+        </div>
+        
+        <hr class="hr-awwwards">
+
+        <div class="section-aww pb-0" data-aos="fade-up">
+            <h2 class="section-title font-heading">In Evidenza</h2>
+            
+            <div class="article-grid">
+                <div class="article-content">
+                    <div class="list-awwwards">
+                        <a href="guide/tariffe-luce/tariffe-luce.html">
+                            <span>TARIFFE LUCE 2026</span>
+                            <span class="arrow">→</span>
+                        </a>
+                        <a href="guide/tariffe-gas/tariffe-gas.html">
+                            <span>IL MERCATO GAS (PSV)</span>
+                            <span class="arrow">→</span>
+                        </a>
+                        <a href="guide/consigli-risparmio/ridurre-bolletta-luce.html">
+                            <span>ABBATTIMENTO COSTI</span>
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <aside class="sidebar">
+                    <div class="ad-banner" style="min-height: 300px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
+                </aside>
+            </div>
+        </div>
+        
+        <div class="ad-banner mt-5">Spazio Pubblicitario Leaderboard (es. 728x90)</div>
+    </div>
+
+    <footer class="mt-5">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="footer-links">
+            <a href="note-legali.html">Note Legali</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <a href="cookie-policy.html">Cookies</a>
+        </div>
+        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('pb').style.width = (winScroll / height) * 100 + "%";
+        });
+    </script>
+</body>
+</html>

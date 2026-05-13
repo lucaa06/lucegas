@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gestione cookie." />
+    <title>Cookies | LUCE/GAS</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <link href="assets/css/awwwards.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pb"></div>
+    <nav class="nav-awwwards">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="articoli.html">Blog</a>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="contatti.html">Contatti</a>
+        </div>
+    </nav>
+
+    <div class="container-aww header-spacing">
+        <div class="section-aww pb-0" data-aos="fade-in" data-aos-duration="1500">
+            <h1 class="huge-text font-heading" style="font-size: clamp(2.5rem, 8vw, 5rem);">COOKIE POLICY</h1>
+            <p class="sub-text">Iniezione e gestione dei file temporanei lato client.</p>
+        </div>
+        
+        <hr class="hr-awwwards">
+
+        <div class="article-grid">
+            <div class="article-content" data-aos="fade-up">
+                <h2 class="font-heading">STRUTTURA COOKIE</h2>
+                <p>Il framework LUCE/GAS fa utilizzo di cookie per garantire il funzionamento del sito e per erogare annunci pubblicitari pertinenti tramite Google AdSense. I moduli implementati si dividono in:</p>
+                <ul>
+                    <li><strong>Core Cookies:</strong> Necessari per il routing interno e il rendering del DOM senza latenza.</li>
+                    <li><strong>Tracking/Ads Cookies:</strong> Assegnati da API di terze parti (AdSense) per mappare l'interazione e servire segmenti ADV ottimizzati.</li>
+                </ul>
+                
+                <h2 class="font-heading mt-5">OVERRIDE DELL'UTENTE</h2>
+                <p>Ogni browser moderno espone interfacce per il blocco assoluto dei tracking cookies. Consigliamo l'adozione delle impostazioni native del browser o la dashboard degli annunci di Google per disattivare la personalizzazione.</p>
+            </div>
+            
+            <aside class="sidebar" data-aos="fade-left">
+                <div class="ad-banner" style="min-height: 250px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="footer-links">
+            <a href="note-legali.html">Note Legali</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <a href="cookie-policy.html" style="color: var(--accent);">Cookies</a>
+        </div>
+        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('pb').style.width = (winScroll / height) * 100 + "%";
+        });
+    </script>
+</body>
+</html>

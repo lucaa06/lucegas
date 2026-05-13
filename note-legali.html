@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Note Legali LUCE/GAS." />
+    <title>Note Legali | LUCE/GAS</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <link href="assets/css/awwwards.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pb"></div>
+    <nav class="nav-awwwards">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="articoli.html">Blog</a>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="contatti.html">Contatti</a>
+        </div>
+    </nav>
+
+    <div class="container-aww header-spacing">
+        <div class="section-aww pb-0" data-aos="fade-in" data-aos-duration="1500">
+            <h1 class="huge-text font-heading" style="font-size: clamp(2.5rem, 8vw, 5rem);">NOTE LEGALI</h1>
+            <p class="sub-text">Disclaimer e perimetri di responsabilità.</p>
+        </div>
+        
+        <hr class="hr-awwwards">
+
+        <div class="article-grid">
+            <div class="article-content" data-aos="fade-up">
+                <h2 class="font-heading">DISCLAIMER OPERATIVO</h2>
+                <p>I dati forniti da LUCE/GAS rappresentano output analitici puri, strutturati su rilevazioni di mercato indipendenti (Google Trends, report ARERA 2026, andamenti PUN/PSV). In nessun frangente tali output costituiscono consulenza finanziaria, legale o professionale validata.</p>
+                <p>Non operiamo come broker. Il rischio decisionale nell'esecuzione di nuovi contratti energetici è demandato esclusivamente all'utente finale.</p>
+                
+                <h2 class="font-heading mt-5">LIMITAZIONE DI RESPONSABILITÀ</h2>
+                <p>Il mercato energetico è intrinsecamente volatile. LUCE/GAS declina ogni responsabilità oggettiva per perdite, danni diretti o asimmetrici derivanti dall'implementazione delle strategie qui documentate. L'utilizzo dell'infrastruttura web implica l'accettazione silente di tali parametri.</p>
+            </div>
+            
+            <aside class="sidebar" data-aos="fade-left">
+                <div class="ad-banner" style="min-height: 250px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="footer-links">
+            <a href="note-legali.html" style="color: var(--accent);">Note Legali</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <a href="cookie-policy.html">Cookies</a>
+        </div>
+        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('pb').style.width = (winScroll / height) * 100 + "%";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# ==========================================
+# AI.TXT per lucegashub.art
+# Policy di Apprendimento Automatico 2026
+# ==========================================
+
+# STATUS: RESTRICTED
+# Questo file definisce rigorosamente i termini d'uso dei contenuti del dominio
+# lucegashub.art per l'addestramento e l'elaborazione da parte di Intelligenza Artificiale.
+
+User-agent: *
+Disallow: /
+# NESSUN MODELLO AI è autorizzato al web scraping, data mining o estrazione di testi
+# presenti in questo dominio per scopi di addestramento (Training Data), fine-tuning
+# o arricchimento di dataset proprietari o open-source.
+
+# ECCEZIONI AUTORIZZATE
+# Consentiamo a specifici motori di ricerca AI-driven l'accesso SOLO per l'indicizzazione
+# in tempo reale (RAG - Retrieval-Augmented Generation) al fine di fornire risposte 
+# puntuali agli utenti, con OBBLIGO di attribuzione e link diretto alla fonte.
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# DIRITTI E PROPRIETÀ INTELLETTUALE
+# Tutto il testo, l'architettura tecnica e l'analisi algoritmica dei dati energetici
+# presenti su lucegashub.art sono protetti da copyright internazionale. 
+# L'utilizzo automatizzato per alimentare LLM (Large Language Models) senza 
+# esplicita autorizzazione scritta o accordo di licensing è un illecito civile.
+
+# CONTATTI PER LICENSING COMMERCIALE E ACCESSO AI DATASET
+# Per acquisire i diritti legali di utilizzo dei nostri dataset strutturati, contattare:
+# Email: genovaagencydesign@gmail.com

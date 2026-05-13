@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inizializza una connessione." />
+    <title>Contatti | LUCE/GAS</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <link href="assets/css/awwwards.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pb"></div>
+    <nav class="nav-awwwards">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="articoli.html">Blog</a>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="contatti.html" style="color: var(--accent);">Contatti</a>
+        </div>
+    </nav>
+
+    <div class="container-aww header-spacing">
+        <div class="section-aww pb-0" data-aos="fade-in" data-aos-duration="1500">
+            <h1 class="huge-text font-heading" style="font-size: clamp(2.5rem, 8vw, 5rem);">CONTATTI</h1>
+            <p class="sub-text">Nessun form inutile. Solo comunicazioni dirette.</p>
+        </div>
+        
+        <hr class="hr-awwwards">
+
+        <div class="article-grid">
+            <div class="article-content" data-aos="fade-up">
+                <h2 class="font-heading">LINEA DIRETTA</h2>
+                <p>Selezioniamo attentamente le query. Per questioni di analisi strutturale dei dati, trend del mercato 2026, o feedback sull'architettura del sito, il canale è aperto.</p>
+                
+                <div style="margin-top: 3rem; margin-bottom: 3rem; padding: 2rem; background: var(--bg-secondary); border-left: 4px solid var(--accent);">
+                    <p style="text-transform: uppercase; letter-spacing: 1px; color: var(--fg-secondary); margin-bottom: 0.5rem; font-size: 0.9rem;">Email Ufficiale:</p>
+                    <a href="mailto:genovaagencydesign@gmail.com" style="color: var(--fg); font-size: clamp(1.2rem, 3vw, 2rem); font-family: 'Montserrat', sans-serif; text-decoration: none; font-weight: 800; transition: color 0.3s; word-break: break-all;">
+                        genovaagencydesign@gmail.com
+                    </a>
+                </div>
+                
+                <p>Latenza prevista: 24/48h.</p>
+            </div>
+            
+            <aside class="sidebar" data-aos="fade-left">
+                <div class="ad-banner" style="min-height: 250px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="footer-links">
+            <a href="note-legali.html">Note Legali</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <a href="cookie-policy.html">Cookies</a>
+        </div>
+        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('pb').style.width = (winScroll / height) * 100 + "%";
+        });
+    </script>
+</body>
+</html>

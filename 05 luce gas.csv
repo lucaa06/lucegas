@@ -1,0 +1,426 @@
+parola_chiave,categoria,intento,tipo
+tariffe luce,tariffe luce,commerciale,short-tail
+bolletta luce,tariffe luce,informazionale,short-tail
+prezzo luce 2025,tariffe luce,informazionale,long-tail
+costo luce kwh,tariffe luce,informazionale,long-tail
+offerte luce migliori 2025,tariffe luce,commerciale,long-tail
+confronto offerte luce,tariffe luce,commerciale,long-tail
+luce tasso fisso,tariffe luce,commerciale,long-tail
+luce prezzo variabile,tariffe luce,commerciale,long-tail
+luce indicizzata PUN,tariffe luce,informazionale,long-tail
+tutele graduali luce,tariffe luce,informazionale,long-tail
+maggior tutela energia,tariffe luce,informazionale,long-tail
+mercato libero luce,tariffe luce,informazionale,short-tail
+mercato tutelato luce,tariffe luce,informazionale,short-tail
+passaggio mercato libero luce,tariffe luce,informazionale,long-tail
+risparmiare bolletta luce,tariffe luce,informazionale,long-tail
+ridurre consumo elettricità,tariffe luce,informazionale,long-tail
+consumo medio luce famiglia,tariffe luce,informazionale,long-tail
+luce kwh medio mensile,tariffe luce,informazionale,long-tail
+bonus luce 2025,tariffe luce,informazionale,long-tail
+bonus sociale luce,tariffe luce,informazionale,long-tail
+tariffe gas,tariffe gas,commerciale,short-tail
+bolletta gas,tariffe gas,informazionale,short-tail
+prezzo gas 2025,tariffe gas,informazionale,long-tail
+offerte gas migliori 2025,tariffe gas,commerciale,long-tail
+confronto offerte gas,tariffe gas,commerciale,long-tail
+gas prezzo fisso,tariffe gas,commerciale,long-tail
+gas prezzo variabile,tariffe gas,commerciale,long-tail
+gas indicizzato PSV,tariffe gas,informazionale,long-tail
+gas metano costo metro cubo,tariffe gas,informazionale,long-tail
+risparmio bolletta gas,tariffe gas,informazionale,long-tail
+gas mercato libero,tariffe gas,informazionale,short-tail
+cambio fornitore gas,tariffe gas,informazionale,long-tail
+bonus gas 2025,tariffe gas,informazionale,long-tail
+bonus sociale gas,tariffe gas,informazionale,long-tail
+consumi medi gas famiglia,tariffe gas,informazionale,long-tail
+contatore gas lettura,tariffe gas,informazionale,long-tail
+gas naturale liquefatto,tariffe gas,informazionale,short-tail
+differenza gas metano GPL,tariffe gas,informazionale,long-tail
+riscaldamento gas costo,tariffe gas,informazionale,long-tail
+bolletta gas alta cosa fare,tariffe gas,informazionale,long-tail
+offerte luce e gas,offerte combinate,commerciale,short-tail
+offerta dual fuel luce gas,offerte combinate,commerciale,long-tail
+migliori offerte luce gas 2025,offerte combinate,commerciale,long-tail
+confronto offerte luce e gas,offerte combinate,commerciale,long-tail
+cambio fornitore luce e gas,offerte combinate,informazionale,long-tail
+risparmio offerta combinata luce gas,offerte combinate,informazionale,long-tail
+preventivo luce gas online,offerte combinate,transazionale,long-tail
+comparatore luce gas,offerte combinate,transazionale,short-tail
+SwitchGas.it,offerte combinate,navigazionale,short-tail
+Facile.it luce gas,offerte combinate,navigazionale,long-tail
+Enel offerte,fornitori,commerciale,short-tail
+Enel Energia luce,fornitori,commerciale,long-tail
+Eni gas e luce,fornitori,commerciale,short-tail
+Edison energia,fornitori,commerciale,short-tail
+A2A luce gas,fornitori,commerciale,short-tail
+Iren luce gas,fornitori,commerciale,short-tail
+Hera energia,fornitori,commerciale,short-tail
+Acea energia,fornitori,commerciale,short-tail
+Illumia luce gas,fornitori,commerciale,short-tail
+Octopus Energy Italia,fornitori,commerciale,long-tail
+Plenitude Eni offerte,fornitori,commerciale,long-tail
+Sky Wi-Fi luce,fornitori,commerciale,long-tail
+E.ON energia,fornitori,commerciale,short-tail
+Axpo energia,fornitori,commerciale,short-tail
+Optima Italia luce gas,fornitori,commerciale,long-tail
+come cambiare fornitore luce,cambio fornitore,informazionale,long-tail
+cambio fornitore luce tempi,cambio fornitore,informazionale,long-tail
+recesso contratto luce gas,cambio fornitore,informazionale,long-tail
+penale cambio fornitore,cambio fornitore,informazionale,long-tail
+portabilità numero luce gas,cambio fornitore,informazionale,long-tail
+codice POD luce,cambio fornitore,informazionale,short-tail
+codice PDR gas,cambio fornitore,informazionale,short-tail
+voltura contatore luce,cambio fornitore,informazionale,short-tail
+voltura contatore gas,cambio fornitore,informazionale,short-tail
+subentro contatore luce,cambio fornitore,informazionale,long-tail
+attivazione fornitura luce,cambio fornitore,informazionale,long-tail
+contratto energia a distanza,cambio fornitore,informazionale,long-tail
+diritto recesso 14 giorni energia,cambio fornitore,informazionale,long-tail
+ARERA tutele consumatori energia,cambio fornitore,informazionale,long-tail
+Sportello del Consumatore energia,cambio fornitore,informazionale,long-tail
+come leggere bolletta luce,bolletta,informazionale,long-tail
+come leggere bolletta gas,bolletta,informazionale,long-tail
+autolettura contatore luce,bolletta,informazionale,short-tail
+autolettura contatore gas,bolletta,informazionale,short-tail
+bolletta stimata reale differenza,bolletta,informazionale,long-tail
+ricalcolo bolletta energia,bolletta,informazionale,long-tail
+morosità bolletta energia,bolletta,informazionale,long-tail
+rateizzazione bolletta luce,bolletta,informazionale,long-tail
+distacco fornitura luce,bolletta,informazionale,long-tail
+addebito diretto bolletta,bolletta,informazionale,long-tail
+bolletta luce online,bolletta,informazionale,short-tail
+app gestione bollette,bolletta,commerciale,short-tail
+fattura energia elettronica,bolletta,informazionale,long-tail
+controllo consumo luce app,bolletta,commerciale,long-tail
+ripartizione spese energia condominio,bolletta,informazionale,long-tail
+contatore intelligente smart meter,smart meter,informazionale,long-tail
+smart meter 2G,smart meter,informazionale,short-tail
+sostituzione contatore luce,smart meter,informazionale,long-tail
+monitoraggio consumi in tempo reale,smart meter,commerciale,long-tail
+smart meter vantaggi,smart meter,informazionale,long-tail
+tariffe ore notturne contatore intelligente,smart meter,informazionale,long-tail
+fascia oraria F1 F2 F3,smart meter,informazionale,long-tail
+orari picco luce,smart meter,informazionale,long-tail
+lavastoviglie orario nottturno risparmio,smart meter,informazionale,long-tail
+energy monitor consumo domestico,smart meter,commerciale,long-tail
+ridurre bolletta luce,consigli risparmio,informazionale,long-tail
+ridurre bolletta gas,consigli risparmio,informazionale,long-tail
+electrodomestici classe A consumi,consigli risparmio,informazionale,long-tail
+riscaldamento risparmio gas,consigli risparmio,informazionale,long-tail
+temperatura ideale riscaldamento casa,consigli risparmio,informazionale,long-tail
+caldaia efficiente risparmio,consigli risparmio,commerciale,long-tail
+termostato programmabile risparmio,consigli risparmio,commerciale,long-tail
+coibentazione risparmio bollette,consigli risparmio,informazionale,long-tail
+abitudini risparmio energia,consigli risparmio,informazionale,long-tail
+stand-by elettrodomestici consumo,consigli risparmio,informazionale,long-tail
+energia elettrica aziende,energia aziende,commerciale,long-tail
+luce gas imprese,energia aziende,commerciale,long-tail
+offerte luce pmi,energia aziende,commerciale,long-tail
+fornitura energia industriale,energia aziende,commerciale,long-tail
+contratto energia aziendale,energia aziende,commerciale,long-tail
+audit energetico aziendale,energia aziende,commerciale,long-tail
+certificati bianchi aziende,energia aziende,informazionale,long-tail
+diagnosi energetica aziende,energia aziende,commerciale,long-tail
+acquisto energia verde aziende,energia aziende,commerciale,long-tail
+GO garanzie origine energia,energia aziende,informazionale,long-tail
+ARERA regolazione energia,regolazione,informazionale,short-tail
+ARERA delibere,regolazione,informazionale,short-tail
+indice PUN prezzo unico nazionale,regolazione,informazionale,long-tail
+PSV punto scambio virtuale gas,regolazione,informazionale,long-tail
+prezzo all'ingrosso energia,regolazione,informazionale,long-tail
+crisi energetica 2025,regolazione,informazionale,long-tail
+tetto prezzo gas europa,regolazione,informazionale,long-tail
+REPowerEU piano energia,regolazione,informazionale,long-tail
+liberalizzazione mercato energia,regolazione,informazionale,long-tail
+fine mercato tutelato 2025,regolazione,informazionale,long-tail
+teleriscaldamento,teleriscaldamento,informazionale,short-tail
+riscaldamento distrettuale,teleriscaldamento,informazionale,long-tail
+costo teleriscaldamento,teleriscaldamento,informazionale,long-tail
+teleriscaldamento vantaggi,teleriscaldamento,informazionale,long-tail
+allaccio teleriscaldamento,teleriscaldamento,commerciale,long-tail
+caldaia condominiale efficienza,teleriscaldamento,commerciale,long-tail
+contabilizzatori calore,teleriscaldamento,informazionale,short-tail
+ripartitore calore,teleriscaldamento,informazionale,short-tail
+riscaldamento autonomo centralizzato,teleriscaldamento,informazionale,long-tail
+caldaia a condensazione incentivi,teleriscaldamento,commerciale,long-tail
+pod numero identificativo luce,misura,informazionale,short-tail
+pdr numero gas,misura,informazionale,short-tail
+misuratore fiscale gas,misura,informazionale,short-tail
+smart meter 2G sostituzione,misura,informazionale,long-tail
+telegestion contatore,misura,informazionale,short-tail
+contatore trifase monofase,misura,informazionale,long-tail
+potenza impegnata contatore,misura,informazionale,long-tail
+ampere contatore luce,misura,informazionale,long-tail
+contatore gas G4 G6,misura,informazionale,long-tail
+sostituzione contatore gas AMG,misura,informazionale,long-tail
+Enel Distribuzione SPA,distribuzione,informazionale,short-tail
+e-distribuzione rete luce,distribuzione,informazionale,short-tail
+Italgas rete,distribuzione,informazionale,short-tail
+2i Rete Gas,distribuzione,informazionale,short-tail
+Unareti rete gas Milano,distribuzione,informazionale,long-tail
+SNAM rete gas,distribuzione,informazionale,short-tail
+gestore di rete locale,distribuzione,informazionale,long-tail
+gestore rete distribuzione DSO,distribuzione,informazionale,short-tail
+connessione rete BT MT AT,distribuzione,informazionale,long-tail
+allaccio nuova fornitura luce,distribuzione,informazionale,long-tail
+reclamo fornitore energia,qualità servizio,informazionale,short-tail
+standard qualità ARERA fornitura,qualità servizio,informazionale,long-tail
+indennizzo automatico bolletta,qualità servizio,informazionale,long-tail
+mancata risposta reclamo fornitore,qualità servizio,informazionale,long-tail
+black-out elettrico risarcimento,qualità servizio,informazionale,long-tail
+continuità servizio elettrico SAIDI,qualità servizio,informazionale,long-tail
+pronto intervento guasto gas,qualità servizio,informazionale,long-tail
+odore gas cosa fare,qualità servizio,informazionale,long-tail
+emergenza gas numero verde,qualità servizio,informazionale,long-tail
+conciliazione ARERA online,qualità servizio,informazionale,long-tail
+bonus sociale energia 2025,bonus agevolazioni,informazionale,long-tail
+ISEE bonus luce gas,bonus agevolazioni,informazionale,long-tail
+bonus elettrico disabili,bonus agevolazioni,informazionale,long-tail
+sconto automatico bolletta bonus,bonus agevolazioni,informazionale,long-tail
+bonus gas famiglie numerose,bonus agevolazioni,informazionale,long-tail
+bonus povertà energetica,bonus agevolazioni,informazionale,long-tail
+reddito di cittadinanza bonus energia,bonus agevolazioni,informazionale,long-tail
+domanda bonus energetico CAF,bonus agevolazioni,informazionale,long-tail
+contributo straordinario carburanti,bonus agevolazioni,informazionale,long-tail
+sostegno utenze disagio economico,bonus agevolazioni,informazionale,long-tail
+autoconsumo fotovoltaico bolletta,autoconsumo,informazionale,long-tail
+scambio sul posto 2025,autoconsumo,informazionale,long-tail
+incentivo energia immessa in rete,autoconsumo,informazionale,long-tail
+prezzo ritiro dedicato GSE,autoconsumo,informazionale,long-tail
+virtualnet metering,autoconsumo,informazionale,short-tail
+comunità energetica bolletta,autoconsumo,informazionale,long-tail
+energia verde certificata offerta,autoconsumo,commerciale,long-tail
+offerta 100% rinnovabile fornitore,autoconsumo,commerciale,long-tail
+GO garanzie origine offerta,autoconsumo,informazionale,long-tail
+emissioni CO2 bolletta,autoconsumo,informazionale,long-tail
+GPL gas propano liquido,GPL,informazionale,short-tail
+GPL offerte prezzo 2025,GPL,commerciale,long-tail
+serbatoio GPL costo,GPL,commerciale,long-tail
+gas in bombole prezzo,GPL,commerciale,long-tail
+conversione gas metano GPL,GPL,informazionale,long-tail
+allaccio metano costo,GPL,informazionale,long-tail
+riscaldamento a olio combustibile,GPL,informazionale,long-tail
+teleriscaldamento confronto metano,GPL,informazionale,long-tail
+pompa calore vs gas metano costo,GPL,informazionale,long-tail
+energia elettrica riscaldamento vs gas,GPL,informazionale,long-tail
+app risparmio bollette,app strumenti,commerciale,short-tail
+monitor consumi domestici,app strumenti,commerciale,short-tail
+dispositivo misura consumo presa,app strumenti,commerciale,long-tail
+shelly smart plug consumo,app strumenti,commerciale,long-tail
+TP-Link Kasa consumo elettrico,app strumenti,commerciale,long-tail
+home assistant energia,app strumenti,commerciale,long-tail
+Tibber app energia,app strumenti,commerciale,short-tail
+Octopus Energy app Italia,app strumenti,commerciale,long-tail
+tariffa oraria dinamica,app strumenti,commerciale,long-tail
+prezzo luce ogni ora F0,app strumenti,informazionale,long-tail
+ARERA autorità energia,regolatori,informazionale,short-tail
+ARERA delibera 49/2023,regolatori,informazionale,long-tail
+Codice di rete distribuzione,regolatori,informazionale,long-tail
+testo integrato distribuzione,regolatori,informazionale,long-tail
+AEEGSI storia ARERA,regolatori,informazionale,long-tail
+GSE gestore servizi energetici,regolatori,informazionale,short-tail
+GME mercati energetici,regolatori,informazionale,short-tail
+Acquirente Unico,regolatori,informazionale,short-tail
+RSE ricerca sistema energetico,regolatori,informazionale,short-tail
+ENEA agenzia energia,regolatori,informazionale,short-tail
+energia condominio,condomini,informazionale,short-tail
+fornitore energia condominio,condomini,commerciale,long-tail
+contabilizzazione calore condominio,condomini,informazionale,long-tail
+ripartizione spese riscaldamento,condomini,informazionale,long-tail
+delibera assemblea impianto solare,condomini,informazionale,long-tail
+fotovoltaico condomino offerta,condomini,commerciale,long-tail
+impianto centralizzato riscaldamento,condomini,informazionale,short-tail
+distacco impianto centrale,condomini,informazionale,long-tail
+efficienza energetica palazzo,condomini,informazionale,long-tail
+cappotto termico condominio bonus,condomini,commerciale,long-tail
+indice PUN mensile,mercato termine,informazionale,long-tail
+futures TTF gas olanda,mercato termine,informazionale,long-tail
+prezzo TTF gas 2025,mercato termine,informazionale,long-tail
+indice PSV gas italia,mercato termine,informazionale,long-tail
+borsa elettrica IPEX,mercato termine,informazionale,short-tail
+curva forward energia,mercato termine,informazionale,long-tail
+hedging prezzo energia aziendale,mercato termine,commerciale,long-tail
+contratto a termine energia gas,mercato termine,commerciale,long-tail
+tolling agreement energia,mercato termine,informazionale,long-tail
+bilanciamento rete elettrica,mercato termine,informazionale,long-tail
+tariffa luce prima casa uso domestico,uso specifico,informazionale,long-tail
+tariffa pompa irrigazione agricola,uso specifico,commerciale,long-tail
+utenza non domestica tipo,uso specifico,informazionale,long-tail
+tariffa biorario monorario,uso specifico,informazionale,long-tail
+tariffa notturna luce risparmio,uso specifico,informazionale,long-tail
+offerta luce casa vacanze,uso specifico,commerciale,long-tail
+contatore seconda casa estate,uso specifico,commerciale,long-tail
+luce casa affitto chi paga,uso specifico,informazionale,long-tail
+cambio intestazione bolletta,uso specifico,informazionale,long-tail
+nuova utenza luce documenti,uso specifico,informazionale,long-tail
+label energetica elettrodomestici,risparmio avanzato,informazionale,short-tail
+frigorifero classe A risparmio,risparmio avanzato,informazionale,long-tail
+lavatrice classe A++ consumi,risparmio avanzato,informazionale,long-tail
+lavastoviglie efficienza energetica,risparmio avanzato,informazionale,long-tail
+scaldacqua pompa calore efficienza,risparmio avanzato,commerciale,long-tail
+LED vs alogena risparmio,risparmio avanzato,informazionale,long-tail
+sensori movimento luce risparmio,risparmio avanzato,commerciale,long-tail
+zanzariera oscurante calore,risparmio avanzato,informazionale,long-tail
+triplo vetro finestre risparmio,risparmio avanzato,commerciale,long-tail
+ventilazione meccanica controllata VMC,risparmio avanzato,commerciale,long-tail
+tariffa luce auto elettrica,auto elettrica,commerciale,long-tail
+colonnina ricarica domestica offerta,auto elettrica,commerciale,long-tail
+wallbox installazione costo,auto elettrica,commerciale,long-tail
+incentivo wallbox 2025,auto elettrica,informazionale,long-tail
+ricarica notturna auto elettrica costo,auto elettrica,informazionale,long-tail
+prezzo kWh ricarica domestica,auto elettrica,informazionale,long-tail
+offerta luce auto elettrica fornitore,auto elettrica,commerciale,long-tail
+smart charging auto,auto elettrica,commerciale,long-tail
+piattaforma gestione ricarica EV,auto elettrica,commerciale,long-tail
+tariffa notturna EV,auto elettrica,commerciale,long-tail
+fornitura energia industriale,industria,commerciale,short-tail
+tariffa media tensione industria,industria,commerciale,long-tail
+connessione rete MT AT,industria,informazionale,long-tail
+gruppi acquisto energia,industria,commerciale,long-tail
+energy broker aziendale,industria,commerciale,short-tail
+contratto pluriennale gas industria,industria,commerciale,long-tail
+ottimizzazione potenza impegnata,industria,informazionale,long-tail
+factoring bollette energia,industria,commerciale,long-tail
+bilanciamento porta dati energia,industria,informazionale,long-tail
+EMS energy management system,industria,commerciale,short-tail
+crisi energetica 2025 previsioni,notizie trend,informazionale,long-tail
+prezzo gas inverno 2025,notizie trend,informazionale,long-tail
+bollette luce aumento 2025,notizie trend,informazionale,long-tail
+riforma mercato elettrico UE,notizie trend,informazionale,long-tail
+tetto prezzo gas 2025,notizie trend,informazionale,long-tail
+fine mercato tutelato quando,notizie trend,informazionale,long-tail
+senza mercato tutelato chi protegge,notizie trend,informazionale,long-tail
+mercato libero conviene 2025,notizie trend,informazionale,long-tail
+confronto tutelato vs libero risparmio,notizie trend,informazionale,long-tail
+fotovoltaico parità rete 2025,notizie trend,informazionale,long-tail
+offerta placet variabile luce,offerte specifiche,commerciale,long-tail
+offerta placet fisso luce,offerte specifiche,commerciale,long-tail
+offerta FLAT luce,offerte specifiche,commerciale,long-tail
+offerta mono-oraria luce,offerte specifiche,commerciale,long-tail
+offerta biroraria luce,offerte specifiche,commerciale,long-tail
+offerta TIME-OF-USE luce,offerte specifiche,commerciale,long-tail
+offerta dinamica PUN+spread,offerte specifiche,commerciale,long-tail
+offerta fisso 12 mesi gas,offerte specifiche,commerciale,long-tail
+offerta fisso 24 mesi gas,offerte specifiche,commerciale,long-tail
+offerta dual verde luce gas,offerte specifiche,commerciale,long-tail
+risparmio medio cambio fornitore,analisi risparmio,informazionale,long-tail
+risparmio annuo luce 100 euro,analisi risparmio,informazionale,long-tail
+calcolo risparmio bolletta gas,analisi risparmio,transazionale,long-tail
+simulatore bolletta luce online,analisi risparmio,transazionale,long-tail
+confronto 5 fornitori luce,analisi risparmio,commerciale,long-tail
+offerta più economica luce 2025,analisi risparmio,commerciale,long-tail
+fornitore più economico gas 2025,analisi risparmio,commerciale,long-tail
+risparmio media famiglia annuo,analisi risparmio,informazionale,long-tail
+consumo medio luce 3000 kWh,analisi risparmio,informazionale,long-tail
+consumo medio gas 1000 smc,analisi risparmio,informazionale,long-tail
+penale recesso anticipato gas,recesso contratto,informazionale,long-tail
+diritto recesso 14 giorni energia,recesso contratto,informazionale,long-tail
+recesso giustificato causa giusta,recesso contratto,informazionale,long-tail
+preavviso disdetta luce,recesso contratto,informazionale,long-tail
+lettera recesso fornitore luce,recesso contratto,transazionale,long-tail
+modulo cambio fornitore luce,recesso contratto,transazionale,long-tail
+tempistiche effettive cambio,recesso contratto,informazionale,long-tail
+errore cambio fornitore risoluzione,recesso contratto,informazionale,long-tail
+fornitore precedente riattivazione,recesso contratto,informazionale,long-tail
+switching luce gas online,recesso contratto,transazionale,long-tail
+componenti bolletta luce dettaglio,componenti bolletta,informazionale,long-tail
+quota fissa bolletta luce,componenti bolletta,informazionale,long-tail
+quota energia kWh bolletta,componenti bolletta,informazionale,long-tail
+oneri di sistema A3 A2 A5,componenti bolletta,informazionale,long-tail
+trasporto e misura bolletta,componenti bolletta,informazionale,long-tail
+IVA bolletta luce 10 22,componenti bolletta,informazionale,long-tail
+addizionale comunale luce,componenti bolletta,informazionale,long-tail
+accisa gas naturale,componenti bolletta,informazionale,long-tail
+contributo ARERA bolletta,componenti bolletta,informazionale,long-tail
+oneri generali sistema elettrico,componenti bolletta,informazionale,long-tail
+pompa di calore consumi annui kwh,pompa calore energia,informazionale,long-tail
+COP pompa calore stagionale SCOP,pompa calore energia,informazionale,long-tail
+luce necessaria pompa calore annua,pompa calore energia,informazionale,long-tail
+risparmio pompa calore vs caldaia gas,pompa calore energia,informazionale,long-tail
+offerta luce pompa calore,pompa calore energia,commerciale,long-tail
+tariffa agevolata pompa calore,pompa calore energia,commerciale,long-tail
+trifase pompa calore connessione,pompa calore energia,informazionale,long-tail
+potenza massima pompa calore kW,pompa calore energia,informazionale,long-tail
+stima bolletta luce pompa calore,pompa calore energia,transazionale,long-tail
+fotovoltaico + pompa calore consumo zero,pompa calore energia,informazionale,long-tail
+EV ricarica kWh settimana,EV e bolletta,informazionale,long-tail
+costo mensile ricarica EV domestica,EV e bolletta,informazionale,long-tail
+costo annuo ricarica elettrica auto,EV e bolletta,informazionale,long-tail
+risparmio benzina vs elettrico,EV e bolletta,informazionale,long-tail
+bidirezionale V2H house,EV e bolletta,informazionale,long-tail
+V2G energia auto rete,EV e bolletta,informazionale,long-tail
+wallbox monofase trifase differenza,EV e bolletta,informazionale,long-tail
+potenza wallbox 7 kW 11 kW 22 kW,EV e bolletta,informazionale,long-tail
+ricarica pubblica vs domestica costo,EV e bolletta,informazionale,long-tail
+app ricarica EV Italia,EV e bolletta,commerciale,long-tail
+gas naturale previsione prezzo 2025,previsioni gas,informazionale,long-tail
+previsione gas inverno 2025 2026,previsioni gas,informazionale,long-tail
+stoccaggi gas europa 2025,previsioni gas,informazionale,long-tail
+GNL importazioni Italia,previsioni gas,informazionale,long-tail
+gasdotto Algeria Italia,previsioni gas,informazionale,long-tail
+piano Mattei energia Africa,previsioni gas,informazionale,long-tail
+rigassificatori Italia,previsioni gas,informazionale,long-tail
+gasdotto TAP Albania,previsioni gas,informazionale,long-tail
+sicurezza approvvigionamento gas,previsioni gas,informazionale,long-tail
+gas russo sostituzione,previsioni gas,informazionale,long-tail
+luce previsione prezzo 2025,previsioni luce,informazionale,long-tail
+prezzi elettricità estate 2025,previsioni luce,informazionale,long-tail
+prezzi elettricità inverno 2025,previsioni luce,informazionale,long-tail
+capacità rinnovabile e prezzo luce,previsioni luce,informazionale,long-tail
+cannibalizzazione solare prezzo,previsioni luce,informazionale,long-tail
+prezzo negativo energia borsa,previsioni luce,informazionale,long-tail
+offerta indicizzata TTF gas previsioni,previsioni luce,informazionale,long-tail
+spread gas russia mercato,previsioni luce,informazionale,long-tail
+scenario energetico europeo 2025,previsioni luce,informazionale,long-tail
+impatto stop gas russo bollette,previsioni luce,informazionale,long-tail
+usi domestici luce cucina,usi domestici,informazionale,long-tail
+usi domestici luce lavanderia,usi domestici,informazionale,long-tail
+climatizzatore consumo kwh annuo,usi domestici,informazionale,long-tail
+forno elettrico consumo kWh,usi domestici,informazionale,long-tail
+bollitore elettrico kWh,usi domestici,informazionale,long-tail
+scaldacqua elettrico consumo annuo,usi domestici,informazionale,long-tail
+piastra induzione consumo gas confronto,usi domestici,informazionale,long-tail
+frigorifero consumo kWh anno,usi domestici,informazionale,long-tail
+lavatrice consumo kWh ciclo,usi domestici,informazionale,long-tail
+PC fisso laptop consumo watts,usi domestici,informazionale,long-tail
+ARERA delibera fine mercato tutelato,fine tutela,informazionale,long-tail
+data fine tutela gas 2025,fine tutela,informazionale,long-tail
+chi non cambia fornitore cosa succede,fine tutela,informazionale,long-tail
+tutela PLACET dopo fine tutela,fine tutela,informazionale,long-tail
+offerta transizione mercato libero,fine tutela,commerciale,long-tail
+promozione cambio fornitore,fine tutela,commerciale,long-tail
+campagna cambio fornitore,fine tutela,commerciale,long-tail
+servizio di salvaguardia gas,fine tutela,informazionale,long-tail
+operatore di default mercato libero,fine tutela,informazionale,long-tail
+contratto di fornitura automatico,fine tutela,informazionale,long-tail
+Enel Energia recenisoni,recensioni fornitori,navigazionale,long-tail
+Eni gas e luce recensioni,recensioni fornitori,navigazionale,long-tail
+A2A recensioni,recensioni fornitori,navigazionale,long-tail
+Edison energia opinioni,recensioni fornitori,navigazionale,long-tail
+Illumia recensioni,recensioni fornitori,navigazionale,long-tail
+Octopus Energy opinioni,recensioni fornitori,navigazionale,long-tail
+miglior fornitore luce 2025 classifica,recensioni fornitori,commerciale,long-tail
+peggior fornitore gas reclami,recensioni fornitori,informazionale,long-tail
+fornitore assistenza clienti migliore,recensioni fornitori,informazionale,long-tail
+Trustpilot fornitori energia italia,recensioni fornitori,navigazionale,long-tail
+fotovoltaico bolletta luce zero,fotovoltaico bolletta,informazionale,long-tail
+energia autoprodotta tassazione,fotovoltaico bolletta,informazionale,long-tail
+scambio sul posto bolletta azzeramento,fotovoltaico bolletta,informazionale,long-tail
+partita IVA fotovoltaico e bolletta,fotovoltaico bolletta,informazionale,long-tail
+fotovoltaico e bonus luce cumulabilità,fotovoltaico bolletta,informazionale,long-tail
+batteria accumulo bolletta zero,fotovoltaico bolletta,informazionale,long-tail
+contratto ritiro dedicato GSE,fotovoltaico bolletta,informazionale,long-tail
+offerta fornitore con fotovoltaico incluso,fotovoltaico bolletta,commerciale,long-tail
+servizio energia solare chiavi in mano,fotovoltaico bolletta,commerciale,long-tail
+pacchetto luce gas fotovoltaico,fotovoltaico bolletta,commerciale,long-tail
+app monitoraggio consumi casa,app tech,commerciale,long-tail
+smart plug misura consumo,app tech,commerciale,long-tail
+HEMS home energy management system,app tech,commerciale,short-tail
+sistema intelligente gestione energia,app tech,commerciale,long-tail
+previsione consumo AI casa,app tech,informazionale,long-tail
+integrazione fotovoltaico domotica,app tech,commerciale,long-tail
+Google Nest termostato energia,app tech,commerciale,long-tail
+Amazon Alexa smart home energia,app tech,commerciale,long-tail
+Tibber price signal,app tech,commerciale,long-tail
+ottimizzazione automatica carichi domestici,app tech,informazionale,long-tail

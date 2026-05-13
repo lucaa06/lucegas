@@ -1,0 +1,91 @@
+# ==========================================
+# ROBOTS.TXT per lucegashub.art
+# Ottimizzazione SEO Avanzata - Maggio 2026
+# ==========================================
+
+# 1. Istruzioni per Crawler Standard (Google, Bing, Yahoo)
+User-agent: *
+Disallow: /assets/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*?*
+Disallow: /*.json$
+Disallow: /cdn-cgi/
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /guide/
+Allow: /en/guide/
+Allow: /
+
+# 2. Ottimizzazione Crawling Rate (Evitare sovraccarichi server)
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Slurp
+Crawl-delay: 2
+
+# 3. Blocco Crawler Aggressivi e Scraper SEO di terze parti (Protezione Dati)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+# 4. Blocco Data Scraping per Addestramento Modelli AI Generativi
+# Vedere /ai.txt per la dichiarazione legale completa
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# 5. Dichiarazione Mappa XML (Sitemap Protocol)
+Sitemap: https://lucegashub.art/sitemap.xml

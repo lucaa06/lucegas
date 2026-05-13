@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trattamento dati e protocolli." />
+    <title>Privacy Policy | LUCE/GAS</title>
+    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <link href="assets/css/awwwards.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pb"></div>
+    <nav class="nav-awwwards">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="articoli.html">Blog</a>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="contatti.html">Contatti</a>
+        </div>
+    </nav>
+
+    <div class="container-aww header-spacing">
+        <div class="section-aww pb-0" data-aos="fade-in" data-aos-duration="1500">
+            <h1 class="huge-text font-heading" style="font-size: clamp(2.5rem, 8vw, 5rem);">PRIVACY POLICY</h1>
+            <p class="sub-text">Protocolli di gestione dati personali (GDPR compliance).</p>
+        </div>
+        
+        <hr class="hr-awwwards">
+
+        <div class="article-grid">
+            <div class="article-content" data-aos="fade-up">
+                <h2 class="font-heading">DATA COLLECTION</h2>
+                <p>Integrità e privacy sono i nostri pilastri. Raccogliamo esclusivamente i log essenziali per il routing e la diagnostica del traffico web: indirizzi IP anonimizzati, user-agent e latenza di rete.</p>
+                
+                <h2 class="font-heading mt-5">THIRD-PARTY INTEGRATIONS</h2>
+                <p>Il sistema si interfaccia con nodi esterni (es. Google AdSense) che possono iniettare tracciatori autonomi per la personalizzazione degli annunci pubblicitari. L'utente mantiene la totale sovranità sui propri dati, potendo interrompere tali flussi tramite le dashboard di opt-out esterne.</p>
+                
+                <h2 class="font-heading mt-5">DATA RETENTION</h2>
+                <p>I dati volatili vengono purgati ciclicamente dai nostri server allocati in EU, garantendo totale conformità al framework legislativo europeo del 2026.</p>
+            </div>
+            
+            <aside class="sidebar" data-aos="fade-left">
+                <div class="ad-banner" style="min-height: 250px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <a href="index.html" class="logo-awwwards">
+            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
+            LUCE<span>/</span>GAS
+        </a>
+        <div class="footer-links">
+            <a href="note-legali.html">Note Legali</a>
+            <a href="privacy-policy.html" style="color: var(--accent);">Privacy</a>
+            <a href="cookie-policy.html">Cookies</a>
+        </div>
+        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            document.getElementById('pb').style.width = (winScroll / height) * 100 + "%";
+        });
+    </script>
+</body>
+</html>
