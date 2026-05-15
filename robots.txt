@@ -13,6 +13,7 @@ Disallow: /*.json$
 Disallow: /cdn-cgi/
 Allow: /assets/img/
 Allow: /assets/css/
+Allow: /assets/js/
 Allow: /guide/
 Allow: /en/guide/
 Allow: /
