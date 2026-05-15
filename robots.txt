@@ -1,34 +1,16 @@
-# ==========================================
-# ROBOTS.TXT per lucegashub.art
-# Ottimizzazione SEO Avanzata - Maggio 2026
-# ==========================================
-
-# 1. Istruzioni per Crawler Standard (Google, Bing, Yahoo)
-User-agent: *
-Disallow: /assets/
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /*?*
-Disallow: /*.json$
-Disallow: /cdn-cgi/
-Allow: /assets/img/
-Allow: /assets/css/
-Allow: /assets/js/
-Allow: /guide/
-Allow: /en/guide/
+User-agent: Googlebot
 Allow: /
 
-# 2. Ottimizzazione Crawling Rate (Evitare sovraccarichi server)
-User-agent: Googlebot
-Crawl-delay: 1
+User-agent: Googlebot-Image
+Allow: /
 
 User-agent: Bingbot
-Crawl-delay: 1
+Allow: /
 
-User-agent: Slurp
-Crawl-delay: 2
+User-agent: *
+Allow: /
 
-# 3. Blocco Crawler Aggressivi e Scraper SEO di terze parti (Protezione Dati)
+# Blocco scraper SEO commerciali
 User-agent: AhrefsBot
 Disallow: /
 
@@ -56,8 +38,7 @@ Disallow: /
 User-agent: serpstatbot
 Disallow: /
 
-# 4. Blocco Data Scraping per Addestramento Modelli AI Generativi
-# Vedere /ai.txt per la dichiarazione legale completa
+# Blocco AI training crawlers
 User-agent: GPTBot
 Disallow: /
 
@@ -76,17 +57,13 @@ Disallow: /
 User-agent: Claude-Web
 Disallow: /
 
+User-agent: Amazonbot
+Disallow: /
+
 User-agent: Omgili
 Disallow: /
 
 User-agent: Omgilibot
 Disallow: /
 
-User-agent: facebookexternalhit
-Disallow: /
-
-User-agent: Amazonbot
-Disallow: /
-
-# 5. Dichiarazione Mappa XML (Sitemap Protocol)
 Sitemap: https://lucegashub.art/sitemap.xml
