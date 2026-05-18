@@ -38,23 +38,33 @@ Disallow: /
 User-agent: serpstatbot
 Disallow: /
 
-# Blocco AI training crawlers
+# AI search crawlers — allowed for visibility in AI Overviews, ChatGPT, Perplexity
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
 
 User-agent: Anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
+Allow: /
+
+# Blocco solo training puro (non search)
+User-agent: CCBot
 Disallow: /
 
 User-agent: Amazonbot
