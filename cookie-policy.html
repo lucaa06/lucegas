@@ -3,19 +3,37 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gestione cookie." />
-    <title>Cookies | LUCE/GAS</title>
-    <link rel="icon" type="image/png" href="assets/img/logo-luce-gas.png" />
+    <meta name="description" content="Cookie Policy di LUCE/GAS: cookie tecnici, analitici Google Analytics e pubblicitari Google AdSense." />
+    <title>Cookie Policy | LUCE/GAS | LUCE/GAS</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://lucegashub.art/cookie-policy.html" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link href="assets/css/awwwards.css" rel="stylesheet" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7198188736895000" crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <meta name="google-adsense-account" content="ca-pub-7198188736895000">
+    <!-- Google Funding Choices CMP -->
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-7198188736895000?ers=1"></script>
+    <script>
+    (function() {
+      function signalGooglefcPresent() {
+        if (!window.googletag) { window.googletag = {cmd: []}; }
+        if (googletag.apiReady) { googletag.cmd.push(function() { googletag.pubads().markAsAmp(); }); }
+        else { window.googletag.cmd.push(function() { googletag.pubads().markAsAmp(); }); }
+      }
+      if (document.readyState === 'complete') { signalGooglefcPresent(); }
+      else { window.addEventListener('load', function() { signalGooglefcPresent(); }); }
+    })();
+    </script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{'ad_storage':'denied','analytics_storage':'denied','ad_user_data':'denied','ad_personalization':'denied'});if(localStorage.getItem('cookieConsent')==='accepted'){gtag('consent','update',{'ad_storage':'granted','analytics_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'})}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7198188736895000" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2ES13LL53"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-F2ES13LL53');</script>
 </head>
 <body>
     <div id="pb"></div>
     <nav class="nav-awwwards">
         <a href="index.html" class="logo-awwwards">
-            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo">
-            LUCE<span>/</span>GAS
+            <svg width="22" height="22" viewBox="0 0 32 32" style="margin-right:8px;flex-shrink:0" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#0047AB"/><path d="M20 4L10 17h6l-3 11L24 15h-6z" fill="white"/></svg>LUCE<span>/</span>GAS
         </a>
         <div class="nav-links">
             <a href="index.html">Home</a>
@@ -24,49 +42,76 @@
             <a href="contatti.html">Contatti</a>
         </div>
     </nav>
-
     <div class="container-aww header-spacing">
-        <div class="section-aww pb-0" data-aos="fade-in" data-aos-duration="1500">
-            <h1 class="huge-text font-heading" style="font-size: clamp(2.5rem, 8vw, 5rem);">COOKIE POLICY</h1>
-            <p class="sub-text">Iniezione e gestione dei file temporanei lato client.</p>
+        <div class="section-aww pb-0">
+            <h1 class="huge-text font-heading" style="font-size: clamp(2rem, 6vw, 4rem);">COOKIE POLICY</h1>
+            <p class="sub-text">Gestione trasparente dei tracciatori: da tecnici a pubblicitari.</p>
         </div>
-        
         <hr class="hr-awwwards">
+        <div class="article-content" style="max-width:820px">
+            <p style="color:#666;font-size:.9rem;margin-bottom:2rem"><em>Ultimo aggiornamento: maggio 2026</em></p>
 
-        <div class="article-grid">
-            <div class="article-content" data-aos="fade-up">
-                <h2 class="font-heading">STRUTTURA COOKIE</h2>
-                <p>Il framework LUCE/GAS fa utilizzo di cookie per garantire il funzionamento del sito e per erogare annunci pubblicitari pertinenti tramite Google AdSense. I moduli implementati si dividono in:</p>
-                <ul>
-                    <li><strong>Core Cookies:</strong> Necessari per il routing interno e il rendering del DOM senza latenza.</li>
-                    <li><strong>Tracking/Ads Cookies:</strong> Assegnati da API di terze parti (AdSense) per mappare l'interazione e servire segmenti ADV ottimizzati.</li>
-                </ul>
-                
-                <h2 class="font-heading mt-5">OVERRIDE DELL'UTENTE</h2>
-                <p>Ogni browser moderno espone interfacce per il blocco assoluto dei tracking cookies. Consigliamo l'adozione delle impostazioni native del browser o la dashboard degli annunci di Google per disattivare la personalizzazione.</p>
-            </div>
-            
-            <aside class="sidebar" data-aos="fade-left">
-                <div class="ad-banner" style="min-height: 250px;">Spazio Pubblicitario Sidebar (es. 300x250)</div>
-            </aside>
+            <h2 class="font-heading">1. COSA SONO I COOKIE</h2>
+            <p>Piccoli file di testo salvati nel tuo dispositivo durante la navigazione. Permettono funzionalità tecniche e, previo consenso, pubblicità pertinente.</p>
+
+            <h2 class="font-heading mt-5">2. COOKIE TECNICI (nessun consenso richiesto)</h2>
+            <table style="width:100%;border-collapse:collapse;font-size:.9rem;margin:1rem 0">
+                <thead><tr style="border-bottom:2px solid #111;text-align:left"><th style="padding:8px">Nome</th><th style="padding:8px">Finalità</th><th style="padding:8px">Durata</th></tr></thead>
+                <tbody><tr><td style="padding:8px;border-bottom:1px solid #e0e0e0">cookie_consent</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">Salva le preferenze cookie</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">12 mesi</td></tr></tbody>
+            </table>
+
+            <h2 class="font-heading mt-5">3. COOKIE ANALITICI — Google Analytics (consenso richiesto)</h2>
+            <table style="width:100%;border-collapse:collapse;font-size:.9rem;margin:1rem 0">
+                <thead><tr style="border-bottom:2px solid #111;text-align:left"><th style="padding:8px">Cookie</th><th style="padding:8px">Finalità</th><th style="padding:8px">Durata</th></tr></thead>
+                <tbody><tr><td style="padding:8px;border-bottom:1px solid #e0e0e0">_ga, _ga_*, _gid</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">Statistiche aggregate (GA4, ID: G-F2ES13LL53)</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">Fino a 24 mesi</td></tr></tbody>
+            </table>
+
+            <h2 class="font-heading mt-5">4. COOKIE PUBBLICITARI — Google AdSense (consenso richiesto)</h2>
+            <table style="width:100%;border-collapse:collapse;font-size:.9rem;margin:1rem 0">
+                <thead><tr style="border-bottom:2px solid #111;text-align:left"><th style="padding:8px">Fornitore</th><th style="padding:8px">Finalità</th><th style="padding:8px">Durata</th><th style="padding:8px">Policy</th></tr></thead>
+                <tbody><tr><td style="padding:8px;border-bottom:1px solid #e0e0e0">Google LLC</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">Pubblicità personalizzata tramite AdSense (ca-pub-7198188736895000)</td><td style="padding:8px;border-bottom:1px solid #e0e0e0">Fino a 13 mesi</td><td style="padding:8px;border-bottom:1px solid #e0e0e0"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener">Google Cookie Policy</a></td></tr></tbody>
+            </table>
+            <p>I cookie AdSense sono attivati <strong>solo</strong> previo consenso esplicito (Google Funding Choices CMP, certificata IAB TCF 2.2).</p>
+
+            <h2 class="font-heading mt-5">5. GESTIONE CONSENSO</h2>
+            <ul>
+                <li><strong>Banner cookie</strong>: gestisci o revoca il consenso al primo accesso.</li>
+                <li><strong>Browser</strong>: elimina/blocca cookie dalle impostazioni del tuo browser.</li>
+                <li><strong>Google</strong>: <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a> — <a href="https://optout.aboutads.info" target="_blank" rel="noopener">aboutads.info</a>.</li>
+            </ul>
         </div>
     </div>
-
-    <footer class="mt-5">
+    
+<div style="margin:32px 0;padding:20px 24px;background:#f5f3ef;border-left:4px solid #1A2B4A">
+<strong>Registro dei Consensi (Consent Log)</strong><br>
+Il consenso o il rifiuto dell'utente viene registrato localmente nel browser tramite <code>localStorage</code> con le seguenti chiavi:<br>
+&bull; <code>cookieOk</code> / <code>ck</code> / <code>cookieConsent</code> — valore del consenso (1/yes/accepted oppure 0/no/rejected)<br>
+&bull; <code>ck_ts</code> — timestamp ISO 8601 del momento della scelta<br>
+Questi dati rimangono sul dispositivo dell'utente e non vengono trasmessi a server terzi.
+</div>
+<div class="nostri-blog-strip" style="border-top:1px solid #ddd;background:#f0f0f0;padding:28px 40px;margin-top:0">
+<div style="max-width:1200px;margin:0 auto">
+<p style="font-size:0.6rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#888;margin-bottom:16px">I nostri blog</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:24px">
+<div><span style="font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0047AB;display:block;margin-bottom:5px">Assicurazioni</span><a href="https://assicurazionetop.it" rel="noopener" style="color:#0047AB;font-weight:700;text-decoration:underline;text-underline-offset:3px;display:block;margin-bottom:4px;font-size:.92rem">AssicurazioneTop</a><p style="font-size:.74rem;color:#666;margin:0;line-height:1.5">Polizze RC auto, casa, vita e salute spiegate chiaramente.</p></div>
+<div><span style="font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0047AB;display:block;margin-bottom:5px">Finanza</span><a href="https://capitaleeuro.it" rel="noopener" style="color:#0047AB;font-weight:700;text-decoration:underline;text-underline-offset:3px;display:block;margin-bottom:4px;font-size:.92rem">CapitaleEuro</a><p style="font-size:.74rem;color:#666;margin:0;line-height:1.5">Risparmio, investimenti e fiscalità personale.</p></div>
+<div><span style="font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0047AB;display:block;margin-bottom:5px">Diritto</span><a href="https://studiolegaleconsulenza.it" rel="noopener" style="color:#0047AB;font-weight:700;text-decoration:underline;text-underline-offset:3px;display:block;margin-bottom:4px;font-size:.92rem">Consulenza Legale</a><p style="font-size:.74rem;color:#666;margin:0;line-height:1.5">Diritto del lavoro, famiglia, immobiliare e GDPR.</p></div>
+</div>
+</div>
+</div>
+<footer class="mt-5">
         <a href="index.html" class="logo-awwwards">
-            <img src="assets/img/logo-luce-gas.png" alt="LUCE GAS Logo" style="height: 30px; margin-right: 10px;">
-            LUCE<span>/</span>GAS
+            <svg width="22" height="22" viewBox="0 0 32 32" style="margin-right:8px;flex-shrink:0" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#0047AB"/><path d="M20 4L10 17h6l-3 11L24 15h-6z" fill="white"/></svg>LUCE<span>/</span>GAS
         </a>
         <div class="footer-links">
             <a href="note-legali.html">Note Legali</a>
             <a href="privacy-policy.html">Privacy</a>
-            <a href="cookie-policy.html" style="color: var(--accent);">Cookies</a>
+            <a href="cookie-policy.html">Cookies</a>
         </div>
-        <div class="copyright">© 2026 LUCE/GAS Info.</div>
+        <div class="copyright">© 2026 Luca Cutrono — LUCE/GAS Info. Contenuti informativi, non siamo rivenditori di energia.</div>
     </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init({ once: true });</script>
+    
+    <script></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

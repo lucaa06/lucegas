@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44">
+  <!-- Badge background -->
+  <rect x="0" y="4" width="36" height="36" rx="6" fill="#0047AB"/>
+  <!-- Lightning bolt -->
+  <path d="M22 8L11 22h7l-3 14L28 20h-7z" fill="white"/>
+  <!-- Wordmark -->
+  <text x="48" y="30" font-family="'Montserrat',Georgia,sans-serif" font-size="21" fill="#111111" font-weight="800" letter-spacing="-0.5">LUCE</text>
+  <text x="104" y="30" font-family="'Montserrat',Georgia,sans-serif" font-size="21" fill="#0047AB" font-weight="800">/</text>
+  <text x="118" y="30" font-family="'Montserrat',Georgia,sans-serif" font-size="21" fill="#111111" font-weight="800" letter-spacing="-0.5">GAS</text>
+</svg>

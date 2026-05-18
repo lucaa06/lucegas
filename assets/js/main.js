@@ -1,3 +1,15 @@
+// Consent Mode v2 helper — called on accept to signal Google
+function _grantConsent() {
+    if (typeof gtag === 'function') {
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted'
+        });
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // Reading progress bar
     const pb = document.getElementById('pb');
@@ -23,11 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(banner);
 
         document.getElementById('cookieAccept').addEventListener('click', () => {
-            localStorage.setItem('cookieConsent', 'accepted');
+            localStorage.setItem('cookieConsent','accepted');
+            localStorage.setItem('ck_ts', new Date().toISOString());
+            _grantConsent();
             banner.remove();
         });
         document.getElementById('cookieReject').addEventListener('click', () => {
-            localStorage.setItem('cookieConsent', 'rejected');
+            localStorage.setItem('cookieConsent','rejected');
+            localStorage.setItem('ck_ts', new Date().toISOString());
             banner.remove();
         });
     }
