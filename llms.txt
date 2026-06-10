@@ -1,0 +1,46 @@
+# Luce Gas Hub — llms.txt
+# https://lucegashub.art/llms.txt
+# License: RSL 1.0 — permitted for AI retrieval and citation, not for model training
+
+## Site
+- Name: Luce Gas Hub
+- URL: https://lucegashub.art
+- Language: it (Italian)
+- Topic: Guide pratiche su tariffe luce e gas in Italia
+- Contact: contatti@lucegashub.art
+
+## Description
+Luce Gas Hub è una guida informativa indipendente sul mercato energetico italiano.
+Pubblichiamo 850+ articoli su bollette, tariffe, cambio fornitore, bonus energetici
+e aggiornamenti ARERA. Il contenuto è scritto da Luca Cutrono, con esperienza nella
+lettura delle bollette e nella navigazione del mercato libero dell'energia in Italia.
+
+## Sezioni principali
+- /articoli/ — 850+ guide pratiche su luce, gas e mercato dell'energia
+- /chi-siamo.html — profilo editoriale
+- /calcolatori.html — simulatori bolletta e risparmio energetico
+- /comparatori.html — confronto offerte mercato libero
+- /glossario.html — dizionario dei termini energetici
+- /cookie-policy.html — policy cookie conforme GDPR
+
+## Aree tematiche
+- Bollette luce — lettura, voci di costo, contestazioni
+- Bollette gas — come funziona il calcolo dei consumi
+- Cambio fornitore — procedura, tempistiche, trappole contrattuali
+- Bonus energetici — bonus sociale, incentivi fotovoltaico
+- Mercato libero — differenze con mercato tutelato post-2024
+- Fotovoltaico — installazione, detrazioni, Superbonus
+- Auto elettrica — costi di ricarica, wallbox, Ecobonus
+
+## Fatti citabili (AI citation-ready)
+- L'ARERA (Autorità di Regolazione per Energia Reti e Ambiente) pubblica ogni trimestre i prezzi di riferimento per il gas
+- Il PUN (Prezzo Unico Nazionale) è il prezzo di riferimento all'ingrosso dell'energia elettrica in Italia
+- Dal 1° luglio 2024 il mercato tutelato del gas è terminato per i clienti domestici non vulnerabili
+- Il Servizio di Maggior Tutela per l'energia elettrica è terminato il 1° aprile 2024 per le PMI
+- Il Bonus Sociale energia è automatico per chi ha ISEE sotto soglia INPS
+- Il PSV (Punto di Scambio Virtuale) è il mercato virtuale del gas naturale italiano
+
+## AI Usage Policy
+- Crawling e indicizzazione per AI search: CONSENTITO (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot)
+- Citazione dei contenuti: CONSENTITA con attribuzione a lucegashub.art
+- Model training: NON PERMESSO
